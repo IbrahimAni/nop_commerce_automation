@@ -1,0 +1,10 @@
+{
+  "theme": "STANDARD",
+  "encoding": "UTF-8",
+  "protocol": "HTTPS",
+  "documentTitle": "Extent Report",
+  "enableTimeline": true,
+  "reportName": "Automation Report",
+  "js": "",
+  "css": ""
+}

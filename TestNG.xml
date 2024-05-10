@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="nop_commerce_suite">
+    <listeners>
+        <listener class-name="nopcommerce.automation.utils.Reporting" />
+    </listeners>
+    <test name="nop_commerce_tests1">
+        <classes>
+            <class name="nopcommerce.automation.testcases.landing.TestAllLinksOnLandingOnPage" />
+            <class name="nopcommerce.automation.testcases.landing.TestCurrencyChanging" />
+            <class name="nopcommerce.automation.testcases.loginapage.TestAllLinksOnTheTestLogin" />
+            <class name="nopcommerce.automation.testcases.loginapage.TestLogin" />
+            <class name="nopcommerce.automation.testcases.searchResult.TestAllLinksOnSearchResultPage" />
+            <class name="nopcommerce.automation.testcases.searchResult.TestSearch" />
+        </classes>
+    </test>
+</suite>
